@@ -1,0 +1,12 @@
+{
+    "keys": [
+        {
+            "kty": "RSA",
+            "n": "2CXwc0ct7aISSh_JhJ2QfL6k4m0K9-GOg8KtGSs9VXAIP78a_YMKQLmlFDbogio6AcuUGWAk-eAeA9rkayXZN_XFC1qU37A1dEpPosTY9U-AJXth7_b4aqX0tNy3IBdg4MAbip5n7BuGAOZI2Opkt8lcySo_Vt0VDxQd16euHbwQXivg9ghuBnNzbPWrxbgH_Zy7uQu7-Wepd7flm_5Fih0CYKxSPiBxDClcW2_uNdJryRhMK7V8zljC2quuTkyo_eB2miv7difL2RcepRIjGThWeVY9PYMdj580_RsuH8JJYiLbJuMq8Oq1ITnB4FInq3P5XwR1Ru7tRvxVSI-V2w",
+            "e": "AQAB",
+            "alg": "RS256",
+            "kid": "autenti-production-20210101",
+            "use": "sig"
+        }
+    ]
+}

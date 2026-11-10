@@ -1,0 +1,72 @@
+{
+    "id": "DOCUMENT_PROCESS:3429836f-ba99-4b4c-a689-37f5e9f52106",
+    "title": "Umowa najmu 12/2026",
+    "description": null,
+    "processLanguage": "pl",
+    "status": "COMPLETED",
+    "parties": [
+        {
+            "party": {
+                "id": "PARTY-PUBLIC_SIGNING_PROCESS_ID:83961e68",
+                "firstName": "John",
+                "lastName": "Doe",
+                "name": "John Doe",
+                "contacts": [{"type": "CONTACT-TYPE:EMAIL", "attributes": {"email": "john.doe@example.com"}}],
+                "extIds": [],
+                "relationships": [
+                    {
+                        "type": "PARTY_RELATIONSHIP-TYPE:MEMBER",
+                        "party": {"id": null, "name": "example organization", "extIds": [{"identificationSpace": "TAXID-PL-NIP", "identifier": "7831693251"}]},
+                        "attributes": {"relationshipDescription": "CEO"}
+                    }
+                ]
+            },
+            "role": "SIGNER",
+            "participationStatus": "COMPLETED",
+            "constraints": [
+                {
+                    "constrainedActions": ["ACTION:SIGNATURE_APPLICATION"],
+                    "classifiers": ["CONSTRAINT-UNIQUE_TYPE:SIGNATURE_TYPE"],
+                    "attributes": {"requiredClassifiers": ["SIGNATURE_PROVIDER-SIGNATURE_TYPE:BASIC"]}
+                }
+            ],
+            "currentUser": false,
+            "events": [
+                {
+                    "timestamp": "2026-11-10T08:20:39.000Z",
+                    "id": "EVENT-AUTENTI:f42c1e87-f814-4b89-b307-adff56b59b0f",
+                    "eventType": "EVENT_CLASSIFIER-UNIQUE_TYPE:SIGNATURE_APPLICATION",
+                    "classifiers": ["EVENT_CLASSIFIER-PROCESS:SIGNATURE"],
+                    "actor": {"id": "PARTY-EMAIL:john.doe@example.com"},
+                    "object": {"id": "DOCUMENT_PROCESS:3429836f-ba99-4b4c-a689-37f5e9f52106", "type": "EVENT_OBJECT-TYPE:DOCUMENT_PROCESS"},
+                    "attributes": {}
+                }
+            ]
+        },
+        {
+            "party": {
+                "id": "PARTY-EMAIL:robot@example.com",
+                "firstName": "Robot",
+                "lastName": "Sender",
+                "name": "Robot Sender",
+                "contacts": [{"type": "CONTACT-TYPE:EMAIL", "attributes": {"email": "robot@example.com"}}],
+                "extIds": [],
+                "relationships": []
+            },
+            "role": "SENDER",
+            "participationStatus": "COMPLETED",
+            "constraints": [],
+            "currentUser": true,
+            "events": []
+        }
+    ],
+    "files": [
+        {"id": "FILE-SOURCE_FILE:0b3a9d4e-1111-4c1a-9c55-5d8633d7746b", "filename": "umowa.pdf", "description": null, "version": "1", "modificationTime": null, "filePurpose": "SOURCE_FILE", "mimeType": "application/pdf"},
+        {"id": "FILE-SIGNED_CONTENT_FILE:6a6d5fb9-2222-4f0e-8d3b-080182c03607", "filename": "umowa-signed.pdf", "description": null, "version": "1", "modificationTime": "2026-11-10T08:21:00.000Z", "filePurpose": "SIGNED_CONTENT_FILE", "mimeType": "application/pdf"}
+    ],
+    "tags": [],
+    "constraints": [],
+    "flags": ["FLAG:VIEWED"],
+    "createdAt": "2026-11-10T08:00:00.000Z",
+    "modifiedAt": "2026-11-10T08:21:00.000Z"
+}

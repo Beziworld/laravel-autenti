@@ -1,0 +1,1 @@
+{"type":"/error/authentication/token/invalid","title":"Authentication error: token invalid","status":401,"detail":"Failed to parse provided token as JWT","instance":"f4076a0d-9612-4f4f-8adf-895387c4459e"}
